@@ -11,7 +11,6 @@ export const StateContext = ({ children }) => {
 	const [qty, setQty] = useState(1);
 
   let foundProduct;
-  let index;
 
 	const onAdd = (product, quantity) => {
 		const checkProductInCart = cartItems.find((item) => item._id === product._id);
@@ -47,7 +46,6 @@ export const StateContext = ({ children }) => {
 
   const toggleCartItemQuanitity = (id, value) => {
     foundProduct = cartItems.find((item) => item._id === id)
-    index = cartItems.findIndex((product) => product._id === id);
     const newCartItems = cartItems.filter((item) => item._id !== id);
 
     if(value === 'inc') {
