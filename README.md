@@ -1,4 +1,4 @@
-# ECommerce
+# E-Commerce
 ### Modern Full Stack ECommerce React Application with Stripe
 
 ## Languages & Frameworks
