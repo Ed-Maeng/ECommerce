@@ -5,7 +5,7 @@
 - React.js, Next.js, Sanity, Stripe
 
 ## For running website and Sanity
-1. Run server by 'npm start dev' in `/ecommerce`
+1. Run server by 'npm run dev' in `/ecommerce/`
 2. Run Sanity by 'sanity start' in `/ecommerce/sanity_ecommerce`
 
 ## Features
